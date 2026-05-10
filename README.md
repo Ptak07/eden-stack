@@ -28,13 +28,13 @@ Repozytorium służy jako **samodzielne środowisko szkoleniowe** do nauki Docke
 
 Przed rozpoczęciem upewnij się, że masz:
 
-| Wymaganie                                                      | Opis                                                              |
-| -------------------------------------------------------------- | ----------------------------------------------------------------- | --- |
-| **Docker Desktop** (Mac/Windows) lub **Docker Engine** (Linux) | Silnik konteneryzacji — wersja 26+                                |
-| **Docker Compose v2**                                          | Wbudowany w Docker Desktop; weryfikacja: `docker compose version` |
-| **Terminal**                                                   | Bash lub Zsh                                                      |
-| **Edytor tekstu**                                              | VS Code, vim, nano — cokolwiek                                    |
-| **Podstawowa znajomość Linuksa**                               | Nawigacja po katalogach, edycja plików, przekierowania `>` i `    | `   |
+| Wymaganie | Opis |
+|---|---|
+| **Docker Desktop** (Mac/Windows) lub **Docker Engine** (Linux) | Silnik konteneryzacji — wersja 26+ |
+| **Docker Compose v2** | Wbudowany w Docker Desktop; weryfikacja: `docker compose version` |
+| **Terminal** | Bash lub Zsh |
+| **Edytor tekstu** | VS Code, vim, nano — cokolwiek |
+| **Podstawowa znajomość Linuksa** | Nawigacja po katalogach, edycja plików, przekierowania `>` i pipe |
 
 > **Nie potrzebujesz** karty GPU — fake DCGM Exporter symuluje metryki GPU w formacie identycznym z prawdziwym DCGM NVIDIA.
 
